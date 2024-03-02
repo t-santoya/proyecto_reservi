@@ -8,9 +8,9 @@
     </div>
   </header>
 </main>
-@endsection
 
-@section("contenido2")
+
+
 <article id="pages" class="container">
   <section>
     <h2>Historia</h2>
@@ -36,9 +36,8 @@
       et velit sapiente harum?</p>
   </section>
 </article>
-@endsection
 
-@section("contenido3")
+
 <article id="pages" class="container">
   <aside>
     <h3>Casos de estudio</h3>

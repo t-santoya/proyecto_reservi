@@ -8,15 +8,15 @@
         <div>
           <h1>Soluciones oportunas</h1>
           <p>Agenda tu cita</p>
-          <a href="{{ asset("pages/casos.blade.php")}}">Casos de estudio</a>
+          <a href="{{route("casos")}}">Casos de estudio</a>
         </div>
       </div>
     </section>
   </article>
 </main>
-@endsection
 
-@section("contenido2")
+
+
 <section>
   <main>
     <article id="home">
@@ -26,16 +26,16 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cum ad pariatur veniam. Veniam vel
             veritatis adipisci, fuga rerum soluta autem quisquam harum non! Adipisci nemo et nulla
             consequatur quam.</p>
-          <a class="btn" href="la-firma.html">Conocer más</a>
+          <a class="btn" href="{{route("reservi")}}">Conocer más</a>
         </div>
         <img src="{{ asset("images/hand-shake.jpeg")}}" alt="Imagen de dos personas estrechandose las manos" class="ima-manos">
       </div>
 </section>
 </article>
 </main>
-@endsection
 
-@section("contenido3")
+
+
 <section>
   <div id="seccionTercera" class="container">
     <img src="{{ asset("images/office-people.jpg")}}" alt="Imagen de personas caminando">
@@ -48,9 +48,8 @@
     </div>
   </div>
 </section>
-@endsection
 
-@section("contenido4")
+
 <section id="seccionCuart">
   <h2>Servicios</h2>
   <p>Nuestro equipo de asesores provee soluciones en casos de:</p>
@@ -85,9 +84,9 @@
     </div>
   </div>
 </section>
-@endsection
 
-@section("contenido5")
+
+
 <section>
   <div id="seccionQuinta" class="container">
     <div>

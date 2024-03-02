@@ -18,12 +18,12 @@
   <header>
     <nav id="navbar">
       <div id="navigation" class="container">
-        <a href="index.html"><img src="{{asset("images/servicios.png")}}" alt="" class="logo"></a>
+        <a href="{{route("inicio")}}"><img src="{{asset("images/servicios.png")}}" alt="" class="logo"></a>
         <ul id="main-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="reservi.html">Reservi</a></li>
-          <li><a href="areas-practica.html">Areas </a></li>
-          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="{{route("inicio")}}">Home</a></li>
+          <li><a href="{{route("reservi")}}">Reservi</a></li>
+          <li><a href="{{route("areas")}}">Areas </a></li>
+          <li><a href="{{route("contacto")}}">Contacto</a></li>
           <li><i class="fa-solid fa-phone"></i> 123456789</li>
         </ul>
       </div>
@@ -32,18 +32,6 @@
   </header>
 
   @yield("contenido1")
-
-  @yield("contenido2")
-
-  @yield("contenido3")
-
-  @yield("contenido4")
-
-  @yield("contenido5")
-
-  @yield("contenido6")
-
-  @yield("contenido7")
 
   <footer>
     <div id="piePagina" class="container">

@@ -1,5 +1,5 @@
 @extends("layout.app")
-@section("contenido3")
+@section("contenido1")
 <!-- Cuerpo del documento -->
 <main>
   <header>
@@ -8,9 +8,8 @@
     </div>
   </header>
 </main>
-@endsection
 
-@section("contenido4")
+
 <article id="pages" class="container">
   <section>
     <h2>Formulario de contacto</h2>
@@ -28,13 +27,13 @@
       <label for="email">Correo electronico <span class="asterisco">*</span>:</label>
       <input type="email" id="email">
 
-      <label for="telefono">Telefono<span class="asterisco">*</span>:</label>
+      <label for="telefono">Teléfono<span class="asterisco">*</span>:</label>
       <input type="text" id="telefono">
 
       <label for="movil">Celular<span class="asterisco">*</span>:</label>
       <input type="text" id="movil">
 
-      <label for="comentario">Diganos como podemos ayudarlo <span class="asterisco">*</span>:</label>
+      <label for="comentario">Como puedo ayudarte <span class="asterisco">*</span>:</label>
       <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
 
       <input type="submit" value="Enviar formulario">

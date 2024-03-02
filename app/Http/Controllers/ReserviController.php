@@ -3,9 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Resource\Reservi\Manager;
 
 class ReserviController extends Controller
 {
+  public $manager;
+
+  function __construct()
+  {
+    $this->manager = new Manager();
+  }
+
   public function areas()
   {
     return view("pages.areas");
@@ -34,6 +42,8 @@ class ReserviController extends Controller
 
   public function inicio()
   {
+    $integrante = $this->manager->listarIntegrantesDelCurso();
+    dd($integrante);
     return view("pages.inicio");
   }
 }

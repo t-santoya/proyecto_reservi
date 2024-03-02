@@ -8,9 +8,9 @@
     </div>
   </header>
 </main>
-@endsection
 
-@section("contenido2")
+
+
 <article id="pages" class="container">
   <section>
     <div class="row">
@@ -22,9 +22,8 @@
     </div>
   </section>
 </article>
-@endsection
 
-@section("contenido3")
+
 <article id="pages" class="container">
   <section>
     <div class="row">
@@ -36,9 +35,7 @@
     </div>
   </section>
 </article>
-@endsection
 
-@section("contenido4")
 <article id="pages" class="container">
   <section>
     <div class="row">
@@ -50,7 +47,7 @@
     </div>
   </section>
 </article>
-@endsection
+
 
 @section("contenido5")
 <article id="pages" class="container">
@@ -64,9 +61,8 @@
     </div>
   </section>
 </article>
-@endsection
 
-@section("contenido6")
+
 <article id="pages" class="container">
   <section>
     <div class="row">
@@ -78,9 +74,8 @@
     </div>
   </section>
 </article>
-@endsection
 
-@section("contenido7")
+
 <article id="pages" class="container">
   <section>
     <div class="row">
